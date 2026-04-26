@@ -1,0 +1,33 @@
+body {
+    background-color: #f4f6f9;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.auth-container {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sidebar {
+    min-height: 100vh;
+    background-color: #343a40;
+    color: #fff;
+    padding-top: 20px;
+}
+.sidebar a {
+    color: #adb5bd;
+    text-decoration: none;
+    padding: 15px 20px;
+    display: block;
+    transition: 0.3s;
+}
+.sidebar a:hover, .sidebar a.active {
+    color: #fff;
+    background-color: #495057;
+}
+.main-content {
+    padding: 30px;
+}
+.loader {
+    display: none;
+}
