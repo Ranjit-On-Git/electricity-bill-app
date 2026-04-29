@@ -5,7 +5,6 @@ require("dotenv").config();
 
 const authRoutes = require("./routes/authRoutes");
 const billRoutes = require("./routes/billRoutes");
-
 const app = express();
 
 // Middleware
@@ -24,6 +23,8 @@ mongoose
 // Routes
 app.use("/api/auth", authRoutes);
 app.use("/api/bill", billRoutes);
+
+
 
 // Error Handling Middleware
 app.use((err, req, res, next) => {
