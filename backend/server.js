@@ -8,7 +8,12 @@ const billRoutes = require("./routes/billRoutes");
 const app = express();
 
 // Middleware
-app.use(cors());
+const corsOptions = {
+  origin: ["http://localhost:5500", "https://your-electricity-app.netlify.app"],
+  methods: ["GET", "POST"], // Add methods your app uses
+  credentials: true
+};
+app.use(cors(corsOptions));
 app.use(express.json());
 
 // Database Connection
