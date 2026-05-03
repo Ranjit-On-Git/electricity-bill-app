@@ -9,7 +9,7 @@ const app = express();
 
 // Middleware
 const corsOptions = {
-  origin: ["http://localhost:5500", "https://your-electricity-app.netlify.app"],
+  origin: ["http://localhost:5500","https://radiant-pothos-a83423.netlify.app"],
   methods: ["GET", "POST"], // Add methods your app uses
   credentials: true
 };
