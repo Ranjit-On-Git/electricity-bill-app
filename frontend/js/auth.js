@@ -1,5 +1,5 @@
 let isLogin = true;
-const API_URL = "https://electricity-bill-app-suih.onrender.com/api/auth";
+const API_URL = "https://electricity-bill-app-suih.onrender.com";
 
 document.addEventListener("DOMContentLoaded", () => {
   if (localStorage.getItem("token")) window.location.href = "dashboard.html";
