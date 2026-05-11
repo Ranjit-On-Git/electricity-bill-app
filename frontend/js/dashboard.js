@@ -1,4 +1,4 @@
-const API_URL = "https://electricity-bill-app-suih.onrender.com";
+const API_URL = "https://electricity-bill-app-2.onrender.com";
 const token = localStorage.getItem("token");
 
 // Sidebar DOM Elements
